@@ -1,36 +1,38 @@
 ![start2](https://cloud.githubusercontent.com/assets/10303538/6315586/9463fa5c-ba06-11e4-8f30-ce7d8219c27d.png)
 
-# Broadcaster
+# Tag1b
 
-Advanced Broadcasting plugin for PocketMine-MP
+Tag1b for not Pocketmine
+
 
 ## Category
 
-PocketMine-MP plugins
+Ali 2.0.0
 
 ## Requirements
 
-PocketMine-MP Alpha_1.5 API 1.12.0
+plugin Tag1b 
+
 
 ## Overview
 
-**Broadcaster** is an Advanced Broadcasting plugin.
+**Tag1b** is an Advanced Tag1b plugin.
 
 **EvolSoft Website:** http://www.evolsoft.tk
 
-***This Plugin uses the New API. You can't install it on old versions of PocketMine.***
+***This Plugin uses the New API. You can't install
 
-You can set custom automatic messages and you can also send messages with /sm and send popups with /sp commands.<br>
-You can also customize colors (only from MCPE v0.11.0), prefixes, suffixes and intervals. (read documentation)
+You can set custom automatic messages and you can also send messages with /Tagblock  and World z x y with  commands <t>
+You can also customize colors (only from MCPE v0.14.0), prefixes, suffixes and intervals. (read documentation)
 
 **Commands:**
 
-<dd><i><b>/broadcaster</b> - Broadcaster commands</i></dd>
-<dd><i><b>/sendmessage</b> - Send message to the specified player (* for all players)</i></dd>
-<dd><i><b>/sendpopup</b> - Send popup to the specified player (* for all players)</i></dd>
-<br>
+<dd><i><b>/TagBlock world z y x hi
+
+
+
 **To-Do:**
-<br><br>
+<brag><tag>
 *- Bug fix (if bugs will be found)*
 
 ## Documentation
@@ -84,10 +86,10 @@ Reset ("&r");<br>
 # - {SUFFIX}: Show suffix
 # - {TIME}: Show current time
 #Prefix
-prefix: "Broadcaster"
+prefix: "Tag1b"
 #Suffix
 suffix: "[A]"
-#Broadcast interval (in seconds)
+#Tag1b interval (in seconds)
 time: 15
 #Command /sm output format
 sendmessage-format: "&e[{TIME}] &b[{PREFIX}] {SUFFIX} &a{SENDER}&e>&f {MESSAGE}"
