@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Broadcaster (v1.16) by EvolSoft
+ * Tag1b (v1.0.0) by EvolSoft
  * Developer: EvolSoft (Flavius12)
  * Website: http://www.evolsoft.tk
  * Date: 28/05/2015 01:23 PM (UTC)
@@ -9,11 +9,11 @@
  * Licensed under MIT (https://github.com/EvolSoft/Broadcaster/blob/master/LICENSE)
  */
 
-namespace Broadcaster;
+namespace TAG1b;
 
 use pocketmine\Player;
 use pocketmine\command\CommandExecutor;
-use pocketmine\command\CommandSender;
+use pocketmine\command\CommandTag;
 use pocketmine\event\Listener;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
@@ -23,7 +23,7 @@ class Main extends PluginBase{
 	
 	//About Plugin Const
 	const PRODUCER = "EvolSoft";
-	const VERSION = "1.16";
+	const VERSION = "1.0.0";
 	const MAIN_WEBSITE = "http://www.evolsoft.tk";
 	//Other Const
 	//Prefix
