@@ -7,7 +7,7 @@ Tag1b for not Pocketmine
 
 ## Category
 
-Ali 2.0.0
+Api 2.0.0
 
 ## Requirements
 
@@ -67,12 +67,7 @@ Underline ("&n");<br>
 Italic ("&o");<br>
 Reset ("&r");<br>
 
-**Configuration (config.yml):**
-
-```yaml
----
-#Available Tags (broadcast messages/popups):
-# - {MAXPLAYERS}: Show the maximum number of players supported by the server
+**Configuration (config.yml)
 # - {TOTALPLAYERS}: Show the number of all online players
 # - {PREFIX}: Show prefix
 # - {SUFFIX}: Show suffix
@@ -92,40 +87,28 @@ suffix: "[A]"
 #Tag1b interval (in seconds)
 time: 15
 #Command /sm output format
-sendmessage-format: "&e[{TIME}] &b[{PREFIX}] {SUFFIX} &a{SENDER}&e>&f {MESSAGE}"
+Tag ((((((;;. /Tagblock World z y x Name 
 #Date\Time format (replaced in {TIME}). For format codes read http://php.net/manual/en/datetime.formats.php
 datetime-format: "H:i:s"
-#Enable auto broadcast
-broadcast-enabled: true
-#Broadcast messages (you can set as many as you want)
-messages:
- - "&e[{TIME}] &b[{PREFIX}]&f 1st message"
- - "&e[{TIME}] &b[{PREFIX}]&f 2nd message"
- - "&e[{TIME}] &b[{PREFIX}]&f 3rd message"
-#Popup broadcast interval (in seconds)
-popup-time: 15
-#Popup duration (in seconds)
-popup-duration: 5
-#Command /sp output format
-sendpopup-format: "&a{SENDER}&e>>&f {MESSAGE}"
-#Enable auto popup broadcast
-popup-broadcast-enabled: true
-popups:
- - "&aWelcome to your server"
- - "&d{TOTALPLAYERS} &eof &d{MAXPLAYERS} &eonline"
- - "&bCurrent Time: &a{TIME}"
+#Enable auto TAG1b
+Tag1b-enabled: true
+# duration ()
+
+#Command /Tagblock
+#Enable auto defblock 
+ 
 ```
 
 **Commands:**
 
-<dd><b><i>/broadcaster</b> - Broadcaster commands (aliases: [bc, broadcast])</i></dd>
-<dd><i><b>/sendmessage &lt;to player (* for all players)&gt; &lt;message&gt;</b> - Send message to player (aliases: [sm, smsg])</i></dd>
-<dd><i><b>/sendpopup &lt;to player (* for all players)&gt; &lt;message&gt;</b> - Send popup to player (aliases: [sp, spop])</i></dd>
+<dd><b><i>/Tagblock - Tagblock  commands (aliases: [Ta, TagBlock ])</i></dd>
+<dd><i><b>/Deftagblock &lt;to player(deftheTag tag to block; - 
+<dd><i><b>/TagBlock World z y x Tag
 <br>
 **Permissions:**
 <br><br>
-- <dd><i><b>broadcaster.*</b> - Broadcaster commands permissions.</i>
-- <dd><i><b>broadcaster.info</b> - Allows player to read info about Broadcaster.</i>
-- <dd><i><b>broadcaster.reload</b> - Allows player to reload Broadcaster.</i>
-- <dd><i><b>broadcaster.sendmessage</b> - Allows sending messages to players with /sendmessage command.</i>
-- <dd><i><b>broadcaster.sendpopup</b> - Allows sending popups to players with /sendpopup command.</i>
+- <dd><i><b>TagBlock.*</b> - TagBlock command Permissions.</i>
+- <dd><i><b>TagBlock.info</b> - to read info about Tagblock.</i>
+- <dd><i><b>Tagblock.reload</b> - to reload Tagblock.</i>
+- <dd><i><b>Tagblock.Tag</b> - /Tagblock command.</i>
+- <dd><i><b>Tagblock.</b> -  /Deftagblock command.</i>
